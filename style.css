@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: aqua;
+  box-sizing: border-box;
+}
+header {
+  height: 20vh;
+  background-color: blueviolet;
+  color: red;
+  font-family: "Playfair Display", serif;
+}
+
+ul {
+  padding-top: 32px;
+  font-size: 30px;
+  text-align: center;
+}
+li {
+  display: inline-block;
+  margin-left: 2em;
+  font-size: 1em;
+}
+li:hover {
+  cursor: pointer;
+}
+section {
+  height: 100vh;
+  background-color: black;
+  padding-left: 0px;
+}
+main {
+  height: 40%;
+  border: slategray solid;
+}
+main figure {
+  display: inline-block;
+  margin-top: 55px;
+  margin-left: 10px;
+}
+main figure img {
+  width: 22vw;
+  height: 60vh;
+  border: tomato solid;
+  border-radius: 20px;
+}
+footer {
+  height: 18vh;
+  background-color: white;
+  font-size: 20px;
+  margin-top: 60px;
+  padding-left: 100px;
+}
+p {
+  display: inline-block;
+}
+footer nav {
+  display: inline-block;
+}
+footer a {
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 15px;
+}
